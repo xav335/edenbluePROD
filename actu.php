@@ -668,7 +668,7 @@ body {
 							<h5>Nos Coordonnées</h5>
 							<div class="textwidget">
 								<p>
-									Lot n°2 Lotissement de Maillet<br /> 33620 CEZAC
+									12 av Georges Brassens<br /> 33240 Peujard
 								</p>
 								<p>
 									Tél : <b>09 83 21 81 32</b><br /> <a

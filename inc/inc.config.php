@@ -1,23 +1,23 @@
 <?php
-/*
-define("DBHOST", "edenbluesy1.mysql.db");
-define("DBNAME", "edenbluesy1");
-define("DBUSER", "edenbluesy1");
-define("DBPASSWD", "Edenblue33");
-*/
+
+if ($_SERVER[ "SERVER_NAME" ] == "edenblue.localxav.lan") {
+    define("DBHOST", "localhost");
+    define("DBNAME", "edenblue");
+    define("DBUSER", "edenblue");
+    define("DBPASSWD", "edenblue33");
+} elseif ($_SERVER[ "SERVER_NAME" ] == "dev.edenblue.fr") {
+    define("DBHOST", "edenbluesy1.mysql.db");
+    define("DBNAME", "edenbluesy1");
+    define("DBUSER", "edenbluesy1");
+    define("DBPASSWD", "Edenblue33");
+} else {
+    define("DBHOST", "edenbluesyprod.mysql.db");
+    define("DBNAME", "edenbluesyprod");
+    define("DBUSER", "edenbluesyprod");
+    define("DBPASSWD", "Edenblue33");
+}
 
 
-define("DBHOST", "edenbluesyprod.mysql.db");
-define("DBNAME", "edenbluesyprod");
-define("DBUSER", "edenbluesyprod");
-define("DBPASSWD", "Edenblue33");
-
-/*
-define("DBHOST", "localhost");
-define("DBNAME", "edenblue");
-define("DBUSER", "edenblue");
-define("DBPASSWD", "edenblue33");
-*/
 
 // CONSTANTES CONSTANTES CONSTANTES CONSTANTES CONSTANTES CONSTANTES CONSTANTES CONSTANTES
 $tva = 0.2;

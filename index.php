@@ -18,6 +18,7 @@ if (empty($result)) {
 	$contenu= 		$result[0]['contenu'];
 }
 
+
 ?>
 <!DOCTYPE html>
 <!--[if IE 8]><html class="no-js lt-ie9" lang="fr-FR"><![endif]-->
@@ -861,7 +862,7 @@ body {
 							<h5>Nos Coordonnées</h5>
 							<div class="textwidget">
 								<p>
-									Lot n°2 Lotissement de Maillet<br /> 33620 CEZAC
+									12 av Georges Brassens<br /> 33240 Peujard
 								</p>
 								<p>
 									Tél : <b>09 83 21 81 32</b><br /> <a
